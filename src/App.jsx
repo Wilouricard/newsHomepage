@@ -12,7 +12,7 @@ function App() {
         </button>
       </nav>
       <div>
-        <div>
+        <div className="pb-4">
           <img src="public\images\image-web-3-mobile.jpg" alt="first article" />
           <div className="flex flex-col gap-4 py-6">
             <h1 className="text-5xl font-extrabold">
@@ -62,28 +62,28 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="">
-          <img src="\images\image-retro-pcs.jpg" alt="retro pc image" />
-          <div>
-          <h1>01</h1>
-          <h2>Reviving Retro PCs</h2>
-          <p>What happens when old PCs are given modern upgrades?</p>
+      <div className="py-12 flex flex-col gap-6">
+        <div className="flex items-center">
+          <img src="\images\image-retro-pcs.jpg" alt="retro pc image" className="w-1/3"/>
+          <div className="pl-6 flex flex-col gap-3">
+          <h1 className=" text-Grayish-blue font-extrabold text-5xl">01</h1>
+          <h2 className="font-bold text-xl">Reviving Retro PCs</h2>
+          <p className="">What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
-        <div>
-          <img src="\images\image-top-laptops.jpg" alt="retro pc image" />
-          <div>
-          <h1>02</h1>
-          <h2>Top 10 Laptops of 2022</h2>
+        <div className="flex items-center">
+          <img src="\images\image-top-laptops.jpg" alt="retro pc image" className="w-1/3" />
+          <div className="pl-6 flex flex-col gap-3">
+          <h1 className=" text-Grayish-blue font-extrabold text-5xl">02</h1>
+          <h2 className="font-bold text-xl">Top 10 Laptops of 2022</h2>
           <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
-        <div>
-          <img src="\images\image-gaming-growth.jpg" alt="retro pc image" />
-          <div>
-          <h1>03</h1>
-          <h2>The Growth of Gaming</h2>
+        <div className="flex items-center">
+          <img src="\images\image-gaming-growth.jpg" alt="retro pc image" className="w-1/3" />
+          <div className="pl-6 flex flex-col gap-3">
+          <h1 className=" text-Grayish-blue font-extrabold text-5xl">03</h1>
+          <h2 className="font-bold text-xl">The Growth of Gaming</h2>
           <p>How the pandemic has sparked fresh opportunities.</p>
           </div>
         </div>
