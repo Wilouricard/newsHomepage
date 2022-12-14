@@ -513,29 +513,53 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.left-1\/3 {
+  left: 33.333333%;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .flex {
   display: flex;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.hidden {
+  display: none;
 }
 
-.w-12 {
-  width: 3rem;
+.h-screen {
+  height: 100vh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-2\/3 {
   width: 66.666667%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-full {
+  width: 100%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-1\/3 {
@@ -544,6 +568,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -570,6 +598,14 @@ video {
   gap: 0.75rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
 .bg-Soft-red {
   --tw-bg-opacity: 1;
   background-color: hsl(5 85% 63% / var(--tw-bg-opacity));
@@ -580,8 +616,18 @@ video {
   background-color: hsl(236 13% 42% / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.bg-Off-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(36 100% 99% / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-8 {
@@ -609,25 +655,12 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pl-6 {
   padding-left: 1.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-5xl {
@@ -643,11 +676,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-xl {
@@ -690,9 +718,32 @@ video {
   color: hsl(233 8% 79% / var(--tw-text-opacity));
 }
 
-.text-Dark-grayish-blue {
-  --tw-text-opacity: 1;
-  color: hsl(236 13% 42% / var(--tw-text-opacity));
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 * {
