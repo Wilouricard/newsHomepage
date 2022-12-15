@@ -45,12 +45,12 @@ function App() {
         <div className="lg:flex lg:gap-10 lg:mx-20">
           <div className="pb-4 lg:w-4/5">
             <img
-              src="public\images\image-web-3-mobile.jpg"
+              src="\images\image-web-3-mobile.jpg"
               alt="first article"
               className="lg:hidden"
             />
             <img
-              src="public\images\image-web-3-desktop.jpg"
+              src="\images\image-web-3-desktop.jpg"
               alt="first article"
               className="hidden lg:inline-block lg:w-full"
             />
